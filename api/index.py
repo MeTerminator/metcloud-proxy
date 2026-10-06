@@ -66,3 +66,8 @@ def page_not_found(e):
 @app.route("/")
 def root():
     return redirect_with_tracking("https://www.mett.top:444/")
+
+
+@app.route("/box/")
+def box():
+    return redirect_with_tracking("https://box.mett.top:444/")
